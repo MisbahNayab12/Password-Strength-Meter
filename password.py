@@ -1,6 +1,8 @@
 import streamlit as st
 import string
 
+st.set_page_config(page_title="Password Strength Checker")
+
 def check_password_strength(password):
     strength = 0
     remarks = []
